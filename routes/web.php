@@ -31,6 +31,9 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
+Route::post('/subscribe', [FormController::class, 'subscribe'])->name('subscribe');
+Route::post('/contact', [FormController::class, 'contact'])->name('contact.store');
+
 // Fallback for undefined routes
 Route::fallback(function () {
     return redirect('/');
