@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming Soon | SABS Group</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Grand+Hotel&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -51,13 +51,23 @@
             z-index: 1;
         }
 
-        .logo {
-            margin-bottom: 2rem;
-            animation: fadeInDown 1s ease-out;
+        .logo-text {
+            font-family: 'Grand Hotel', cursive;
+            font-size: 3.5rem;
+            color: #FFAE00;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+            display: block;
         }
 
-        .logo img {
-            height: 60px;
+        .logo-subtext {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: rgba(255, 255, 255, 0.6);
+            display: block;
+            margin-top: -10px;
         }
 
         .content-card {
@@ -194,7 +204,8 @@
     
     <div class="container">
         <div class="logo">
-            <img src="{{ asset('img/logo.png') }}" alt="SABS Group">
+            <span class="logo-text">SABS Group</span>
+            <span class="logo-subtext">Business Solutions</span>
         </div>
 
         <div class="content-card">

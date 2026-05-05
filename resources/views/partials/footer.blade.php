@@ -4,7 +4,10 @@
         <div class="row footer_bg">						
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="footer_logo">
-                    <img src="{{ asset('img/logo.png') }}" alt="" />
+                    <div style="margin-bottom: 20px;">
+                        <span style="font-family: 'Grand Hotel', cursive; font-size: 2.5rem; color: #FFAE00; line-height: 1; display: block;">SABS Group</span>
+                        <span style="font-family: sans-serif; font-size: 0.6rem; letter-spacing: 2px; color: #fff; text-transform: uppercase; display: block; margin-top: -5px;">Business Solutions</span>
+                    </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim.</p>
                 </div>
                 <div class="social_profile">

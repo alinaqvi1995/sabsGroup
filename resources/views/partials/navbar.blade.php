@@ -12,7 +12,12 @@
     <div class="container">
     <div class="row align-items-center">       
         <div class="col-6 col-xl-2">
-        <h1 class="mb-0 site-logo"><a href="{{ url('/') }}"><img src="{{ asset('img/logo.png') }}" alt=""></a></h1>
+        <h1 class="mb-0 site-logo">
+            <a href="{{ url('/') }}" style="text-decoration: none;">
+                <span style="font-family: 'Grand Hotel', cursive; font-size: 2.5rem; color: #FFAE00; line-height: 1; display: block;">SABS Group</span>
+                <span style="font-family: sans-serif; font-size: 0.6rem; letter-spacing: 2px; color: #fff; text-transform: uppercase; display: block; margin-top: -5px;">Business Solutions</span>
+            </a>
+        </h1>
         </div>
         <div class="col-12 col-md-10 d-none d-xl-block">
         <nav class="site-navigation position-relative text-right" role="navigation">
