@@ -214,7 +214,7 @@
             
             <div class="countdown">
                 <div class="count-item">
-                    <span class="count-number" id="days">14</span>
+                    <span class="count-number" id="days">02</span>
                     <span class="count-label">Days</span>
                 </div>
                 <div class="count-item">
@@ -247,7 +247,7 @@
 
     <script>
         // Simple countdown logic
-        let days = 14, hours = 8, minutes = 45, seconds = 30;
+        let days = 2, hours = 8, minutes = 45, seconds = 30;
         
         function updateCountdown() {
             if (seconds > 0) seconds--;
