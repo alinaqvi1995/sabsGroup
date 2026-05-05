@@ -22,7 +22,8 @@
 <script src="{{ asset('js/menu.js') }}"></script>																				
 <script src="{{ asset('js/jquery.sticky.js') }}"></script>		
 <!-- form contact js -->																				
-<script src="{{ asset('js/form-contact.js') }}"></script>				
+{{-- <script src="{{ asset('js/form-contact.js') }}"></script> --}}
+				
 <!-- scrolltopcontrol js -->																				
 <script src="{{ asset('js/scrolltopcontrol.js') }}"></script>																				
 <!-- scripts js -->
