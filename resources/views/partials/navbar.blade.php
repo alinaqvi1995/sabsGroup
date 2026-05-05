@@ -23,8 +23,8 @@
         <div class="col-6 col-xl-2">
         <h1 class="mb-0 site-logo">
             <a href="{{ url('/') }}" style="text-decoration: none;">
-                <span style="font-family: 'Grand Hotel', cursive; font-size: 2.5rem; color: #FFAE00; line-height: 1; display: block;">SABS Group</span>
-                <span style="font-family: sans-serif; font-size: 0.6rem; letter-spacing: 2px; color: #fff; text-transform: uppercase; display: block; margin-top: -5px;">Business Solutions</span>
+                <span style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; font-weight: 700; color: #FFAE00; line-height: 1; display: block; text-transform: uppercase; letter-spacing: 1px;">SABS <span style="font-weight: 500; color: #fff;">GROUP</span></span>
+                <span style="font-family: 'Montserrat', sans-serif; font-size: 0.55rem; font-weight: 600; letter-spacing: 3px; color: #fff; text-transform: uppercase; display: block; margin-top: 5px; opacity: 1;">Business Solutions</span>
             </a>
         </h1>
         </div>

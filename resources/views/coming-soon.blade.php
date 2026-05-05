@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming Soon | SABS Group</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -52,22 +52,37 @@
         }
 
         .logo-text {
-            font-family: 'Grand Hotel', cursive;
-            font-size: 3.5rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.8rem;
+            font-weight: 700;
             color: #FFAE00;
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-            display: block;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: inline-block;
+            line-height: 1;
+        }
+
+        .logo-text span {
+            font-weight: 500;
+            color: #fff;
+            letter-spacing: 2px;
         }
 
         .logo-subtext {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-size: 1rem;
-            font-weight: 400;
+            font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 4px;
-            color: rgba(255, 255, 255, 0.6);
+            letter-spacing: 8px;
+            color: #fff;
             display: block;
-            margin-top: -10px;
+            margin-top: 15px;
+            opacity: 0.9;
+        }
+        
+        .logo {
+            margin-bottom: 3.5rem;
+            animation: fadeInDown 1s ease-out;
         }
 
         .content-card {
@@ -204,7 +219,7 @@
     
     <div class="container">
         <div class="logo">
-            <span class="logo-text">SABS Group</span>
+            <span class="logo-text">SABS<span>GROUP</span></span>
             <span class="logo-subtext">Business Solutions</span>
         </div>
 
