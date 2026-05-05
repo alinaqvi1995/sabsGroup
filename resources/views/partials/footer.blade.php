@@ -5,11 +5,10 @@
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="footer_logo">
                     <div style="margin-bottom: 25px;">
-                        <a href="{{ url('/') }}" style="text-decoration: none; display: flex; align-items: center; gap: 10px;">
-                            <span style="font-family: 'Montserrat', sans-serif; font-size: 2.2rem; font-weight: 800; color: #fff; line-height: 1; text-transform: uppercase;">SA</span>
-                            <div style="line-height: 1.1;">
-                                <span style="font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 500; color: #FFAE00; display: block;">Business</span>
-                                <span style="font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 500; color: #FFAE00; display: block; white-space: nowrap;">Solutions Group</span>
+                        <a href="{{ url('/') }}" style="text-decoration: none; display: block; text-align: left;">
+                            <div style="font-family: 'Montserrat', sans-serif; line-height: 1; text-transform: uppercase;">
+                                <span style="font-size: 1.8rem; font-weight: 800; color: #FFAE00; display: block; letter-spacing: 1px;">SA BUSINESS</span>
+                                <span style="font-size: 0.7rem; font-weight: 600; color: #fff; display: block; letter-spacing: 5px; margin-top: 5px;">Solutions Group</span>
                             </div>
                         </a>
                     </div>

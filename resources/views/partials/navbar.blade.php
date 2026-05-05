@@ -22,11 +22,10 @@
     <div class="row align-items-center">       
         <div class="col-6 col-xl-3">
         <h1 class="mb-0 site-logo">
-            <a href="{{ url('/') }}" style="text-decoration: none; display: flex; align-items: center; gap: 10px;">
-                <span class="sa-mark" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: 800; color: #fff; line-height: 1; text-transform: uppercase;">SA</span>
-                <div style="line-height: 1.1;">
-                    <span class="logo-biz" style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; font-weight: 500; color: #FFAE00; display: block;">Business</span>
-                    <span class="logo-sol" style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; font-weight: 500; color: #FFAE00; display: block; white-space: nowrap;">Solutions Group</span>
+            <a href="{{ url('/') }}" style="text-decoration: none; display: block; text-align: left;">
+                <div style="font-family: 'Montserrat', sans-serif; line-height: 1; text-transform: uppercase;">
+                    <span class="sa-mark" style="font-size: 1.6rem; font-weight: 800; color: #FFAE00; display: block; letter-spacing: 1px;">SA BUSINESS</span>
+                    <span class="logo-sol" style="font-size: 0.65rem; font-weight: 600; color: #fff; text-transform: uppercase; letter-spacing: 4.5px; display: block; margin-top: 5px;">Solutions Group</span>
                 </div>
             </a>
         </h1>

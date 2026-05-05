@@ -231,11 +231,10 @@
     
     <div class="container">
         <div class="logo">
-            <a href="{{ url('/') }}" style="text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 20px;">
-                <span style="font-family: 'Montserrat', sans-serif; font-size: 6rem; font-weight: 800; color: #fff; line-height: 1; text-transform: uppercase;">SA</span>
-                <div style="text-align: left; line-height: 1.1;">
-                    <span style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: 500; color: #FFAE00; display: block;">Business</span>
-                    <span style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: 500; color: #FFAE00; display: block; white-space: nowrap;">Solutions Group</span>
+            <a href="{{ url('/') }}" style="text-decoration: none; display: inline-block; text-align: left;">
+                <div style="font-family: 'Montserrat', sans-serif; line-height: 1; text-transform: uppercase;">
+                    <span style="font-size: 5rem; font-weight: 800; color: #FFAE00; display: block; letter-spacing: 2px;">SA BUSINESS</span>
+                    <span style="font-size: 2rem; font-weight: 600; color: #fff; display: block; letter-spacing: 12px; margin-top: 15px;">Solutions Group</span>
                 </div>
             </a>
         </div>
@@ -263,8 +262,21 @@
                 </div>
             </div>
 
-            <form class="newsletter-form">
-                <input type="email" placeholder="Enter your email for updates" required>
+            @if(session('success'))
+                <div style="background: rgba(0,255,0,0.1); color: #00ff00; padding: 10px; border-radius: 5px; margin-bottom: 20px;">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            @if($errors->any())
+                <div style="background: rgba(255,0,0,0.1); color: #ff0000; padding: 10px; border-radius: 5px; margin-bottom: 20px;">
+                    {{ $errors->first() }}
+                </div>
+            @endif
+
+            <form class="newsletter-form" action="{{ route('subscribe') }}" method="POST">
+                @csrf
+                <input type="email" name="email" placeholder="Enter your email for updates" required>
                 <button type="submit">Notify Me</button>
             </form>
 

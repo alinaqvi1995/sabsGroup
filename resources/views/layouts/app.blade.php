@@ -46,11 +46,10 @@
         <style>
             /* Sticky Header Logo Fix */
             .is-sticky .site-logo .sa-mark {
-                color: #222 !important;
-            }
-            .is-sticky .site-logo .logo-biz,
-            .is-sticky .site-logo .logo-sol {
                 color: #FFAE00 !important;
+            }
+            .is-sticky .site-logo .logo-sol {
+                color: #222 !important;
             }
         </style>
 	</head>
