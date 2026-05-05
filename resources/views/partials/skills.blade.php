@@ -1,5 +1,5 @@
 <!-- SKILLS -->
-<section class="skills_area section-padding" style="background-image: url({{ asset('assets/img/bg/skill-bg.jpg') }});  background-size:cover;background-position:center;">   
+<section class="skills_area section-padding" style="background-image: url({{ asset('img/bg/skill-bg.jpg') }});  background-size:cover;background-position:center;">   
     <div class="container">				
         <div class="row">					
             <div class="col-lg-5 col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">

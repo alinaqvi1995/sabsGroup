@@ -1,5 +1,5 @@
 <!-- START FOOTER -->
-<div class="footer" style="background-image: url({{ asset('assets/img/bg/footer.png') }});  background-size:cover;">
+<div class="footer" style="background-image: url({{ asset('img/bg/footer.png') }});  background-size:cover;">
     <div class="container">		
         <div class="row footer_bg">						
             <div class="col-lg-3 col-sm-6 col-xs-12">

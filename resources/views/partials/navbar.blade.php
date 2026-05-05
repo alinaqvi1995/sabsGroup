@@ -5,7 +5,16 @@
         <span class="icon-close2 js-menu-toggle"></span>
     </div>
     </div>
-    <div class="site-mobile-menu-body"></div>
+    <div class="site-mobile-menu-body">
+    <ul class="site-nav-wrap">
+        <li><a href="{{ route('home') }}" class="nav-link">Home</a></li>
+        <li><a href="{{ route('workforce') }}" class="nav-link">Workforce Solutions</a></li>
+        <li><a href="{{ route('technology') }}" class="nav-link">Technology & Infrastructure</a></li>
+        <li><a href="{{ route('supply') }}" class="nav-link">Supply & Procurement Solutions</a></li>
+        <li><a href="{{ route('about') }}" class="nav-link">About Us</a></li>
+        <li><a href="{{ route('contact') }}" class="nav-link">Connect With Us</a></li>
+    </ul>
+  </div>
 </div>
 
 <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
@@ -22,53 +31,25 @@
         <div class="col-12 col-md-10 d-none d-xl-block">
         <nav class="site-navigation position-relative text-right" role="navigation">
             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-            <li class="has-children">
-                <a href="{{ url('/') }}" class="nav-link">Home</a>
-                <ul class="dropdown">
-                <li><a href="#" class="nav-link">Home Two</a></li>
-                <li><a href="#" class="nav-link">Home Three</a></li>
-                </ul>
+            <li class="{{ request()->is('index') ? 'active' : '' }}">
+                <a href="{{ route('home') }}" class="nav-link">Home</a>
             </li>	
-            <li><a class="nav-link" href="#">About</a></li>
-            <li class="has-children">
-                <a href="#" class="nav-link">Services</a>
-                <ul class="dropdown">
-                <li><a href="#" class="nav-link">Email Marketing</a></li>
-                <li><a href="#" class="nav-link">Offline SEO</a></li>
-                <li><a href="#" class="nav-link">Social media marketing</a></li>
-                <li><a href="#" class="nav-link">Lead Generation</a></li>
-                <li><a href="#" class="nav-link">Web Design</a></li>
-                <li><a href="#" class="nav-link">Search Engine optimization</a></li>
-                </ul>
+            <li class="{{ request()->is('workforce-solutions') ? 'active' : '' }}">
+                <a href="{{ route('workforce') }}" class="nav-link">Workforce Solutions</a>
+            </li>
+            <li class="{{ request()->is('technology-infrastructure') ? 'active' : '' }}">
+                <a href="{{ route('technology') }}" class="nav-link">Technology & Infrastructure</a>
+            </li>
+            <li class="{{ request()->is('supply-procurement-solutions') ? 'active' : '' }}">
+                <a href="{{ route('supply') }}" class="nav-link">Supply & Procurement Solutions</a>
+            </li>
+            <li class="{{ request()->is('about-us') ? 'active' : '' }}">
+                <a href="{{ route('about') }}" class="nav-link">About Us</a>
             </li>					 
-                <li><a class="nav-link" href="#">Case Study</a></li>									
-            <li class="has-children">
-                <a href="#" class="nav-link">Portfolio</a>
-                <ul class="dropdown">
-                <li><a href="#" class="nav-link">Portfolio Gallery</a></li>
-                <li><a href="#" class="nav-link">Portfolio Project</a></li>
-                <li><a href="#" class="nav-link">Single Project</a></li>
-                </ul>
-            </li>	
-            <li class="has-children">
-                <a href="#" class="nav-link">Pages</a>
-                <ul class="dropdown">
-                <li><a href="#" class="nav-link">About</a></li>
-                <li><a href="#" class="nav-link">Faq Page</a></li>
-                <li><a href="#" class="nav-link">404 Page</a></li>
-                <li><a href="#" class="nav-link">Team Member</a></li>
-                <li><a href="#" class="nav-link">Pricing</a></li>
-                </ul>
-            </li>					
-            <li class="has-children">
-                <a href="#" class="nav-link">Blog</a>
-                <ul class="dropdown">
-                <li><a href="#" class="nav-link">Blog No Sidebar</a></li>
-                <li><a href="#" class="nav-link">Blog With Sidebar</a></li>
-                <li><a href="#" class="nav-link">Single Blog</a></li>
-                </ul>
-            </li>				
-                <li><a class="nav-link" href="#">Contact</a></li>					
+            <li class="{{ request()->is('contact') ? 'active' : '' }}">
+                <a href="{{ route('contact') }}" class="nav-link">Connect With Us</a>
+            </li>
+					
             </ul>
         </nav>
         </div>
