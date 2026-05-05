@@ -20,15 +20,18 @@
 <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
     <div class="container">
     <div class="row align-items-center">       
-        <div class="col-6 col-xl-2">
+        <div class="col-6 col-xl-3">
         <h1 class="mb-0 site-logo">
-            <a href="{{ url('/') }}" style="text-decoration: none;">
-                <span style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; font-weight: 700; color: #FFAE00; line-height: 1; display: block; text-transform: uppercase; letter-spacing: 1px;">SABS <span style="font-weight: 500; color: #fff;">GROUP</span></span>
-                <span style="font-family: 'Montserrat', sans-serif; font-size: 0.55rem; font-weight: 600; letter-spacing: 3px; color: #fff; text-transform: uppercase; display: block; margin-top: 5px; opacity: 1;">Business Solutions</span>
+            <a href="{{ url('/') }}" style="text-decoration: none; display: flex; align-items: center; gap: 10px;">
+                <span class="sa-mark" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: 800; color: #fff; line-height: 1; text-transform: uppercase;">SA</span>
+                <div style="line-height: 1.1;">
+                    <span class="logo-biz" style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; font-weight: 500; color: #FFAE00; display: block;">Business</span>
+                    <span class="logo-sol" style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; font-weight: 500; color: #FFAE00; display: block; white-space: nowrap;">Solutions Group</span>
+                </div>
             </a>
         </h1>
         </div>
-        <div class="col-12 col-md-10 d-none d-xl-block">
+        <div class="col-12 col-md-9 d-none d-xl-block">
         <nav class="site-navigation position-relative text-right" role="navigation">
             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
             <li class="{{ request()->is('index') ? 'active' : '' }}">

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Technology & Infrastructure | SABS Group')
+@section('title', 'Technology & Infrastructure | SA Business Solutions Group')
 @section('page_title', 'Technology & Infrastructure')
 @section('page_subtitle', 'Strategic Tech & Foundation Solutions')
 

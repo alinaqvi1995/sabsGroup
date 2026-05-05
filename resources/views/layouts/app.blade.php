@@ -10,12 +10,14 @@
 		<meta name="description" content="Monoline - Design Agency HTML Template">
 		<meta name="keywords" content="agency, business, corporate, creative, html5, modern, multipurpose, One Page, parallax, startup ">		
 		<!-- SITE TITLE -->
-		<title>@yield('title', 'Monoline - Design Agency HTML Template')</title>			
+		<title>@yield('title', 'SA Business Solutions Group')</title>			
 		<!-- Latest Bootstrap min CSS -->
 		<link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">		
 		<!-- Google Font -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800"> 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600">			
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap">
 		<!-- Font Awesome CSS -->
@@ -41,6 +43,16 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
         @yield('styles')
+        <style>
+            /* Sticky Header Logo Fix */
+            .is-sticky .site-logo .sa-mark {
+                color: #222 !important;
+            }
+            .is-sticky .site-logo .logo-biz,
+            .is-sticky .site-logo .logo-sol {
+                color: #FFAE00 !important;
+            }
+        </style>
 	</head>
 	
     <body data-spy="scroll" data-offset="80">

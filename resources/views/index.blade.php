@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'SABS Group | Strategic Infrastructure, Workforce & Supply Solutions')
+@section('title', 'SA Business Solutions Group | Strategic Infrastructure, Workforce & Supply Solutions')
 
 @section('content')
     @include('partials.hero')

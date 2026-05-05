@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Connect With Us | SABS Group')
+@section('title', 'Connect With Us | SA Business Solutions Group')
 @section('page_title', 'Connect With Us')
 @section('page_subtitle', 'Let\'s Start a Conversation')
 

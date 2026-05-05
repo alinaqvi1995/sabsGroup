@@ -18,7 +18,7 @@
                     </div>
                     <div class="cert-item">
                         <i class="ti-check-box"></i>
-                        <span><strong>NJ TRANSIT Partner</strong> (Extensive public sector exposure)</span>
+                        <span><strong>Public Sector Partner</strong> (Extensive public sector exposure)</span>
                     </div>
                 </div>
             </div>

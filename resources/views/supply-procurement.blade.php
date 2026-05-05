@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Supply & Procurement | SABS Group')
+@section('title', 'Supply & Procurement | SA Business Solutions Group')
 @section('page_title', 'Supply & Procurement')
 @section('page_subtitle', 'Agile Supply Chain & Sourcing')
 

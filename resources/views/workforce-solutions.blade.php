@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Workforce Solutions | SABS Group')
+@section('title', 'Workforce Solutions | SA Business Solutions Group')
 @section('page_title', 'Workforce Solutions')
 @section('page_subtitle', 'Expert Talent Acquisition & Staffing')
 

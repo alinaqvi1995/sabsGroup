@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us | SABS Group')
+@section('title', 'About Us | SA Business Solutions Group')
 @section('page_title', 'About Us')
 @section('page_subtitle', 'Our Story, Mission & Differentiators')
 
@@ -13,9 +13,9 @@
                 <div class="col-lg-7">
                     <div class="section-title">
                         <h2>Company Overview</h2>
-                        <p>SA Business Solutions Group LLC (SABS Group) is a premier provider of strategic infrastructure, workforce, and supply solutions.</p>
+                        <p>SA Business Solutions Group LLC is a premier provider of strategic infrastructure, workforce, and supply solutions.</p>
                     </div>
-                    <p>With extensive experience in both the public and private sectors, including significant exposure to organizations like <strong>NJ TRANSIT</strong>, we bring a wealth of expertise to every engagement. Our team is dedicated to providing government-ready solutions with the agility of a niche provider.</p>
+                    <p>With extensive experience in both the public and private sectors, including significant exposure to various public sector organizations, we bring a wealth of expertise to every engagement. Our team is dedicated to providing government-ready solutions with the agility of a niche provider.</p>
                     
                     <div class="row mt-4">
                         <div class="col-md-6">
@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="p-5" style="background: rgba(255,174,0,0.05); border: 2px dashed #FFAE00; border-radius: 30px;">
-                        <h3 class="mb-4">Why SABS Group?</h3>
+                        <h3 class="mb-4">Why SA Business Solutions Group?</h3>
                         <div class="diff-item mb-4">
                             <h5 style="color: #FFAE00;">MWBE-Certified</h5>
                             <p class="mb-0">A minority and women-owned business enterprise committed to diversity.</p>

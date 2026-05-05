@@ -4,9 +4,14 @@
         <div class="row footer_bg">						
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="footer_logo">
-                    <div style="margin-bottom: 20px;">
-                        <span style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem; font-weight: 700; color: #FFAE00; line-height: 1; display: block; text-transform: uppercase; letter-spacing: 1px;">SABS <span style="font-weight: 500; color: #fff;">GROUP</span></span>
-                        <span style="font-family: 'Montserrat', sans-serif; font-size: 0.55rem; font-weight: 600; letter-spacing: 3px; color: #fff; text-transform: uppercase; display: block; margin-top: 5px; opacity: 1;">Business Solutions</span>
+                    <div style="margin-bottom: 25px;">
+                        <a href="{{ url('/') }}" style="text-decoration: none; display: flex; align-items: center; gap: 10px;">
+                            <span style="font-family: 'Montserrat', sans-serif; font-size: 2.2rem; font-weight: 800; color: #fff; line-height: 1; text-transform: uppercase;">SA</span>
+                            <div style="line-height: 1.1;">
+                                <span style="font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 500; color: #FFAE00; display: block;">Business</span>
+                                <span style="font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 500; color: #FFAE00; display: block; white-space: nowrap;">Solutions Group</span>
+                            </div>
+                        </a>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim.</p>
                 </div>

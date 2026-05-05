@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon | SABS Group</title>
+    <title>Coming Soon | SA Business Solutions Group</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -53,31 +53,43 @@
 
         .logo-text {
             font-family: 'Montserrat', sans-serif;
-            font-size: 2.8rem;
-            font-weight: 700;
+            font-size: 4rem;
+            font-weight: 800;
             color: #FFAE00;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            line-height: 1;
             display: inline-block;
+        }
+
+        .logo-details {
+            display: inline-block;
+            text-align: left;
+            border-left: 2px solid rgba(255, 255, 255, 0.2);
+            padding-left: 20px;
+            margin-left: 15px;
+            vertical-align: middle;
+        }
+
+        .logo-details h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+            margin: 0;
+            letter-spacing: 2px;
             line-height: 1;
         }
 
-        .logo-text span {
-            font-weight: 500;
-            color: #fff;
-            letter-spacing: 2px;
-        }
-
-        .logo-subtext {
+        .logo-details span {
             font-family: 'Montserrat', sans-serif;
-            font-size: 1rem;
-            font-weight: 600;
+            font-size: 0.8rem;
+            font-weight: 400;
             text-transform: uppercase;
-            letter-spacing: 8px;
-            color: #fff;
+            letter-spacing: 12px;
+            color: rgba(255, 255, 255, 0.5);
             display: block;
-            margin-top: 15px;
-            opacity: 0.9;
+            margin-top: 8px;
         }
         
         .logo {
@@ -219,8 +231,13 @@
     
     <div class="container">
         <div class="logo">
-            <span class="logo-text">SABS<span>GROUP</span></span>
-            <span class="logo-subtext">Business Solutions</span>
+            <a href="{{ url('/') }}" style="text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 20px;">
+                <span style="font-family: 'Montserrat', sans-serif; font-size: 6rem; font-weight: 800; color: #fff; line-height: 1; text-transform: uppercase;">SA</span>
+                <div style="text-align: left; line-height: 1.1;">
+                    <span style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: 500; color: #FFAE00; display: block;">Business</span>
+                    <span style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: 500; color: #FFAE00; display: block; white-space: nowrap;">Solutions Group</span>
+                </div>
+            </a>
         </div>
 
         <div class="content-card">
