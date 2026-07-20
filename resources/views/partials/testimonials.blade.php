@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-title text-center">
             <h2>What Our Clients Say</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <p>Discover how SA Business Solutions Group has helped organizations worldwide achieve their goals through innovative strategies and dedicated support.</p>
         </div>				
         <div class="row">					
             <div class="col-lg-10 offset-lg-1 col-sm-12 col-xs-12">

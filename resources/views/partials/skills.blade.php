@@ -6,7 +6,7 @@
                 <div class="skill_bg">
                     <div class="skill_content">
                         <h2>Generating New Ideas. Solving Big Problems</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard ever since the when an unknown printer.</p>
+                        <p>Our core competencies lie in driving innovation and tackling complex organizational challenges. We bring a wealth of experience and a strategic approach to every project.</p>
                     </div>	
                     <div class="skill_bar">
                         <div class="progress-bar-linear">

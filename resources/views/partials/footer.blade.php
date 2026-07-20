@@ -12,7 +12,7 @@
                             </div>
                         </a>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim.</p>
+                    <p>Empowering businesses with innovative solutions, strategic insights, and unparalleled support to drive sustainable growth and success in the modern market.</p>
                 </div>
                 <div class="social_profile">
                     <ul>
@@ -67,8 +67,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="footer_copyright">
-                    <p>&copy; {{ date('Y') }} Monoline. All Rights Reserved by <a href="https://bestwpware.com/" target="_blank">Bestwpware</a></p>
-        <p>Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
+                    <p>&copy; {{ date('Y') }} SA BUSINESS Solutions Group. All Rights Reserved.</p>
                 </div>
             </div>
         </div>				
